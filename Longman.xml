@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="tests" thread-count="2"
+	configfailurepolicy="continue">
+
+	<test name="Android_1">
+
+		<classes>
+
+			<class name="com.pageTests.HistoryPageTest" />
+			<class name="com.pageTests.CoreVocabularyPageMobileTest" />
+
+		</classes>
+
+	</test>
+
+</suite>

@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">12</td><td class="numi">12</td><td class="numi">0</td><td class="numi_attn">4</td><td class="numi">178.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="4">com.pageTests.AboutThisAppPageTest</td><td><a href="#m1"><b>verifyAboutThisAppSubLinksCount</b>  </a></td><td class="numi">1</td><td>1469017432627</td><td class="numi">7844</td></tr><tr class="failedodd"><td><a href="#m2"><b>verifyAboutThisAppSubLinksPresence</b>  </a></td><td class="numi">1</td><td>1469017440475</td><td class="numi">7816</td></tr><tr class="failedodd"><td><a href="#m3"><b>verifyAcademicWordListLinkClickable</b>  </a></td><td class="numi">1</td><td>1469017448293</td><td class="numi">21944</td></tr><tr class="failedodd"><td><a href="#m4"><b>verifyPronunciationTableLinkClickable</b>  </a></td><td class="numi">1</td><td>1469017514119</td><td class="numi">23270</td></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="12">com.pageTests.AboutThisAppPageTest</td><td><a href="#m5"><b>verifyAboutThisAppLabelName</b>  </a></td><td class="numi">1</td><td>1469017415012</td><td class="numi">10963</td></tr><tr class="passedodd"><td><a href="#m6"><b>verifyAboutThisAppLinkDisplayed</b>  </a></td><td class="numi">1</td><td>1469017425990</td><td class="numi">6631</td></tr><tr class="passedodd"><td><a href="#m7"><b>verifyAcknowledgementsLinkClickable</b>  </a></td><td class="numi">1</td><td>1469017470239</td><td class="numi">8466</td></tr><tr class="passedodd"><td><a href="#m8"><b>verifyCopyrightLinkClickable</b>  </a></td><td class="numi">1</td><td>1469017478707</td><td class="numi">8862</td></tr><tr class="passedodd"><td><a href="#m9"><b>verifyEmailSupportLinkClickable</b>  </a></td><td class="numi">1</td><td>1469017487572</td><td class="numi">8850</td></tr><tr class="passedodd"><td><a href="#m10"><b>verifyGrammarCodesAndPatternsLinkClickable</b>  </a></td><td class="numi">1</td><td>1469017496431</td><td class="numi">9747</td></tr><tr class="passedodd"><td><a href="#m11"><b>verifyNavigationToAboutThisAppPage</b>  </a></td><td class="numi">1</td><td>1469017506180</td><td class="numi">7938</td></tr><tr class="passedodd"><td><a href="#m12"><b>verifyShortFormsAndLabelsLinkClickable</b>  </a></td><td class="numi">1</td><td>1469017537395</td><td class="numi">8178</td></tr><tr class="passedodd"><td><a href="#m13"><b>verifyTellAFriendLinkClickable</b>  </a></td><td class="numi">1</td><td>1469017545580</td><td class="numi">9679</td></tr><tr class="passedodd"><td><a href="#m14"><b>verifyTutorialLinkClickable</b>  </a></td><td class="numi">1</td><td>1469017555262</td><td class="numi">8736</td></tr><tr class="passedodd"><td><a href="#m15"><b>verifyWelcomeLongmanSubLinks</b>  </a></td><td class="numi">1</td><td>1469017563999</td><td class="numi">10259</td></tr><tr class="passedodd"><td><a href="#m16"><b>verifyWelcomeToLongmanLinkClickable</b>  </a></td><td class="numi">1</td><td>1469017574258</td><td class="numi">9585</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">com.pageTests.AboutThisAppPageTest:verifyAboutThisAppSubLinksCount</h2>
+<div style="padding-left:3em">
+<p>expected [10] but found [9]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:370)
+<br/>at org.testng.Assert.assertEquals(Assert.java:380)
+<br/>at com.pageTests.AboutThisAppPageTest.verifyAboutThisAppSubLinksCount(AboutThisAppPageTest.java:58)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.pageTests.AboutThisAppPageTest:verifyAboutThisAppSubLinksPresence</h2>
+<div style="padding-left:3em">
+<p>About This App options are missing expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.pageTests.AboutThisAppPageTest.verifyAboutThisAppSubLinksPresence(AboutThisAppPageTest.java:71)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.pageTests.AboutThisAppPageTest:verifyPronunciationTableLinkClickable</h2>
+<div style="padding-left:3em">
+<p>expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at org.testng.Assert.assertTrue(Assert.java:52)
+<br/>at com.pageTests.AboutThisAppPageTest.verifyPronunciationTableLinkClickable(AboutThisAppPageTest.java:95)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.pageTests.AboutThisAppPageTest:verifyAcademicWordListLinkClickable</h2>
+<div style="padding-left:3em">
+<p>expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at org.testng.Assert.assertTrue(Assert.java:52)
+<br/>at com.pageTests.AboutThisAppPageTest.verifyAcademicWordListLinkClickable(AboutThisAppPageTest.java:131)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.pageTests.AboutThisAppPageTest:verifyGrammarCodesAndPatternsLinkClickable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.pageTests.AboutThisAppPageTest:verifyWelcomeToLongmanLinkClickable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.pageTests.AboutThisAppPageTest:verifyAboutThisAppLinkDisplayed</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.pageTests.AboutThisAppPageTest:verifyAboutThisAppLabelName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.pageTests.AboutThisAppPageTest:verifyAcknowledgementsLinkClickable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.pageTests.AboutThisAppPageTest:verifyTellAFriendLinkClickable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.pageTests.AboutThisAppPageTest:verifyTutorialLinkClickable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.pageTests.AboutThisAppPageTest:verifyCopyrightLinkClickable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.pageTests.AboutThisAppPageTest:verifyShortFormsAndLabelsLinkClickable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.pageTests.AboutThisAppPageTest:verifyWelcomeLongmanSubLinks</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.pageTests.AboutThisAppPageTest:verifyNavigationToAboutThisAppPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.pageTests.AboutThisAppPageTest:verifyEmailSupportLinkClickable</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

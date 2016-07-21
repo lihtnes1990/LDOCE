@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.pageTests.AboutThisAppPageTest">
+        <methods>
+          <include name="verifyAboutThisAppSubLinksPresence"/>
+          <include name="verifyAboutThisAppSubLinksCount"/>
+          <include name="verifyPronunciationTableLinkClickable"/>
+          <include name="verifyAcademicWordListLinkClickable"/>
+          <include name="openTheLongmanApp"/>
+          <include name="closeTheApp"/>
+        </methods>
+      </class> <!-- com.pageTests.AboutThisAppPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
