@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="4" total="16" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="178795" started-at="2016-07-20T12:23:25Z" finished-at="2016-07-20T12:26:24Z">
+  <suite name="Default suite" duration-ms="179684" started-at="2016-07-21T06:10:00Z" finished-at="2016-07-21T06:13:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="178795" started-at="2016-07-20T12:23:25Z" finished-at="2016-07-20T12:26:24Z">
+    <test name="Default test" duration-ms="179684" started-at="2016-07-21T06:10:00Z" finished-at="2016-07-21T06:13:00Z">
       <class name="com.pageTests.AboutThisAppPageTest">
-        <test-method status="PASS" signature="openTheLongmanApp()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="openTheLongmanApp" is-config="true" duration-ms="9045" started-at="2016-07-20T17:53:25Z" finished-at="2016-07-20T17:53:35Z">
+        <test-method status="PASS" signature="openTheLongmanApp()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="openTheLongmanApp" is-config="true" duration-ms="6244" started-at="2016-07-21T11:40:00Z" finished-at="2016-07-21T11:40:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openTheLongmanApp -->
-        <test-method status="PASS" signature="verifyAboutThisAppLabelName()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyAboutThisAppLabelName" duration-ms="10963" started-at="2016-07-20T17:53:35Z" finished-at="2016-07-20T17:53:45Z">
+        <test-method status="PASS" signature="verifyAboutThisAppLabelName()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyAboutThisAppLabelName" duration-ms="14327" started-at="2016-07-21T11:40:07Z" finished-at="2016-07-21T11:40:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAboutThisAppLabelName -->
-        <test-method status="PASS" signature="verifyAboutThisAppLinkDisplayed()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyAboutThisAppLinkDisplayed" duration-ms="6631" started-at="2016-07-20T17:53:45Z" finished-at="2016-07-20T17:53:52Z">
+        <test-method status="PASS" signature="verifyAboutThisAppLinkDisplayed()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyAboutThisAppLinkDisplayed" duration-ms="6524" started-at="2016-07-21T11:40:21Z" finished-at="2016-07-21T11:40:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAboutThisAppLinkDisplayed -->
-        <test-method status="FAIL" signature="verifyAboutThisAppSubLinksCount()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyAboutThisAppSubLinksCount" duration-ms="7844" started-at="2016-07-20T17:53:52Z" finished-at="2016-07-20T17:54:00Z">
+        <test-method status="FAIL" signature="verifyAboutThisAppSubLinksCount()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyAboutThisAppSubLinksCount" duration-ms="7926" started-at="2016-07-21T11:40:27Z" finished-at="2016-07-21T11:40:35Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [10] but found [9]]]>
@@ -62,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAboutThisAppSubLinksCount -->
-        <test-method status="FAIL" signature="verifyAboutThisAppSubLinksPresence()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyAboutThisAppSubLinksPresence" duration-ms="7816" started-at="2016-07-20T17:54:00Z" finished-at="2016-07-20T17:54:08Z">
+        <test-method status="FAIL" signature="verifyAboutThisAppSubLinksPresence()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyAboutThisAppSubLinksPresence" duration-ms="7788" started-at="2016-07-21T11:40:35Z" finished-at="2016-07-21T11:40:43Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[About This App options are missing expected [true] but found [false]]]>
@@ -103,7 +103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAboutThisAppSubLinksPresence -->
-        <test-method status="FAIL" signature="verifyAcademicWordListLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyAcademicWordListLinkClickable" duration-ms="21944" started-at="2016-07-20T17:54:08Z" finished-at="2016-07-20T17:54:30Z">
+        <test-method status="FAIL" signature="verifyAcademicWordListLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyAcademicWordListLinkClickable" duration-ms="22707" started-at="2016-07-21T11:40:43Z" finished-at="2016-07-21T11:41:06Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -145,27 +145,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcademicWordListLinkClickable -->
-        <test-method status="PASS" signature="verifyAcknowledgementsLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyAcknowledgementsLinkClickable" duration-ms="8466" started-at="2016-07-20T17:54:30Z" finished-at="2016-07-20T17:54:38Z">
+        <test-method status="PASS" signature="verifyAcknowledgementsLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyAcknowledgementsLinkClickable" duration-ms="8231" started-at="2016-07-21T11:41:06Z" finished-at="2016-07-21T11:41:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcknowledgementsLinkClickable -->
-        <test-method status="PASS" signature="verifyCopyrightLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyCopyrightLinkClickable" duration-ms="8862" started-at="2016-07-20T17:54:38Z" finished-at="2016-07-20T17:54:47Z">
+        <test-method status="PASS" signature="verifyCopyrightLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyCopyrightLinkClickable" duration-ms="9367" started-at="2016-07-21T11:41:14Z" finished-at="2016-07-21T11:41:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCopyrightLinkClickable -->
-        <test-method status="PASS" signature="verifyEmailSupportLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyEmailSupportLinkClickable" duration-ms="8850" started-at="2016-07-20T17:54:47Z" finished-at="2016-07-20T17:54:56Z">
+        <test-method status="PASS" signature="verifyEmailSupportLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyEmailSupportLinkClickable" duration-ms="8576" started-at="2016-07-21T11:41:24Z" finished-at="2016-07-21T11:41:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmailSupportLinkClickable -->
-        <test-method status="PASS" signature="verifyGrammarCodesAndPatternsLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyGrammarCodesAndPatternsLinkClickable" duration-ms="9747" started-at="2016-07-20T17:54:56Z" finished-at="2016-07-20T17:55:06Z">
+        <test-method status="PASS" signature="verifyGrammarCodesAndPatternsLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyGrammarCodesAndPatternsLinkClickable" duration-ms="9331" started-at="2016-07-21T11:41:32Z" finished-at="2016-07-21T11:41:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGrammarCodesAndPatternsLinkClickable -->
-        <test-method status="PASS" signature="verifyNavigationToAboutThisAppPage()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyNavigationToAboutThisAppPage" duration-ms="7938" started-at="2016-07-20T17:55:06Z" finished-at="2016-07-20T17:55:14Z">
+        <test-method status="PASS" signature="verifyNavigationToAboutThisAppPage()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyNavigationToAboutThisAppPage" duration-ms="8608" started-at="2016-07-21T11:41:41Z" finished-at="2016-07-21T11:41:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavigationToAboutThisAppPage -->
-        <test-method status="FAIL" signature="verifyPronunciationTableLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyPronunciationTableLinkClickable" duration-ms="23270" started-at="2016-07-20T17:55:14Z" finished-at="2016-07-20T17:55:37Z">
+        <test-method status="FAIL" signature="verifyPronunciationTableLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyPronunciationTableLinkClickable" duration-ms="23176" started-at="2016-07-21T11:41:50Z" finished-at="2016-07-21T11:42:13Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -207,27 +207,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPronunciationTableLinkClickable -->
-        <test-method status="PASS" signature="verifyShortFormsAndLabelsLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyShortFormsAndLabelsLinkClickable" duration-ms="8178" started-at="2016-07-20T17:55:37Z" finished-at="2016-07-20T17:55:45Z">
+        <test-method status="PASS" signature="verifyShortFormsAndLabelsLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyShortFormsAndLabelsLinkClickable" duration-ms="8321" started-at="2016-07-21T11:42:13Z" finished-at="2016-07-21T11:42:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyShortFormsAndLabelsLinkClickable -->
-        <test-method status="PASS" signature="verifyTellAFriendLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyTellAFriendLinkClickable" duration-ms="9679" started-at="2016-07-20T17:55:45Z" finished-at="2016-07-20T17:55:55Z">
+        <test-method status="PASS" signature="verifyTellAFriendLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyTellAFriendLinkClickable" duration-ms="9486" started-at="2016-07-21T11:42:22Z" finished-at="2016-07-21T11:42:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTellAFriendLinkClickable -->
-        <test-method status="PASS" signature="verifyTutorialLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyTutorialLinkClickable" duration-ms="8736" started-at="2016-07-20T17:55:55Z" finished-at="2016-07-20T17:56:03Z">
+        <test-method status="PASS" signature="verifyTutorialLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyTutorialLinkClickable" duration-ms="8639" started-at="2016-07-21T11:42:31Z" finished-at="2016-07-21T11:42:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTutorialLinkClickable -->
-        <test-method status="PASS" signature="verifyWelcomeLongmanSubLinks()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyWelcomeLongmanSubLinks" duration-ms="10259" started-at="2016-07-20T17:56:03Z" finished-at="2016-07-20T17:56:14Z">
+        <test-method status="PASS" signature="verifyWelcomeLongmanSubLinks()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyWelcomeLongmanSubLinks" duration-ms="10290" started-at="2016-07-21T11:42:40Z" finished-at="2016-07-21T11:42:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWelcomeLongmanSubLinks -->
-        <test-method status="PASS" signature="verifyWelcomeToLongmanLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyWelcomeToLongmanLinkClickable" duration-ms="9585" started-at="2016-07-20T17:56:14Z" finished-at="2016-07-20T17:56:23Z">
+        <test-method status="PASS" signature="verifyWelcomeToLongmanLinkClickable()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="verifyWelcomeToLongmanLinkClickable" duration-ms="8890" started-at="2016-07-21T11:42:50Z" finished-at="2016-07-21T11:42:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWelcomeToLongmanLinkClickable -->
-        <test-method status="PASS" signature="closeTheApp()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="closeTheApp" is-config="true" duration-ms="894" started-at="2016-07-20T17:56:23Z" finished-at="2016-07-20T17:56:24Z">
+        <test-method status="PASS" signature="closeTheApp()[pri:0, instance:com.pageTests.AboutThisAppPageTest@6e06451e]" name="closeTheApp" is-config="true" duration-ms="1188" started-at="2016-07-21T11:42:59Z" finished-at="2016-07-21T11:43:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheApp -->

@@ -1,41 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" configfailurepolicy="continue" name="Failed suite [Suite]" parallel="tests">
-  <test name="Android_1(failed)" parallel="tests">
+<suite configfailurepolicy="continue" name="Failed suite [Suite]">
+  <test name="Android_1(failed)">
     <classes>
-      <class name="com.pageTests.HistoryPageTest">
-        <methods>
-          <include name="verifyDeleteFunctionality"/>
-          <include name="verifyWordsAddedIntoHistory"/>
-          <include name="verifyNavigationToDetailedPageFromHistory"/>
-          <include name="verifyNavigationToHistoryPage"/>
-          <include name="verifyHistoryPageTitleLabel"/>
-          <include name="verifyHistoryPageTitleIsDisplayed"/>
-          <include name="openTheLongmanApp"/>
-          <include name="verifyDeleteAllMessageText"/>
-          <include name="verifyMultipleDeleteFunctionality"/>
-        </methods>
-      </class> <!-- com.pageTests.HistoryPageTest -->
       <class name="com.pageTests.CoreVocabularyPageMobileTest">
         <methods>
-          <include name="verifyAllNineThousandWordsSelected"/>
-          <include name="verifyHighFrequencySelected"/>
           <include name="verifyTop1000WrittenWordsSelected"/>
-          <include name="verifyCoreVocabularyLabelName"/>
-          <include name="verifyTop2000SpokenWordsSelected"/>
-          <include name="navigateToCoreVocabularyPage"/>
-          <include name="verifyTop1000SpokenWordsSelected"/>
-          <include name="verifyTop2000WrittenWordsSelected"/>
-          <include name="verifyMediumFrequencySelected"/>
-          <include name="verifyAllTopWrittenWordsSelected"/>
           <include name="verifyAllTopSpokenWordsSelected"/>
           <include name="openTheLongmanApp"/>
-          <include name="verifyCoreVocabularyPageTitle"/>
-          <include name="verifyTop3000SpokenWordsSelected"/>
-          <include name="verifyTop3000WrittenWordsSelected"/>
-          <include name="verifyLowerFrequencySelected"/>
+          <include name="closeTheApp"/>
         </methods>
       </class> <!-- com.pageTests.CoreVocabularyPageMobileTest -->
+      <class name="com.pageTests.HistoryPageTest">
+        <methods>
+          <include name="openTheLongmanApp"/>
+          <include name="clearHistoryPage"/>
+          <include name="closeTheApp"/>
+        </methods>
+      </class> <!-- com.pageTests.HistoryPageTest -->
     </classes>
   </test> <!-- Android_1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
